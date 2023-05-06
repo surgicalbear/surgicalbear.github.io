@@ -1,0 +1,96 @@
+body{
+    background-color: #111;
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100%;
+    width: 100%;
+}
+.middle{
+    display: table-cell;
+    vertical-align: middle;
+}
+.content{
+    max-width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 23%;
+    min-width: 300px;
+    background-color: #111;
+    border-top: 2px solid #fff;
+    border-top-color: rgb(255, 255, 255);
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-bottom: 2px solid #fff;
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s;
+}
+
+@keyframes typing {
+    from { width: 0}
+    to {width: 100%}
+}
+h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.eryk{
+    color: #8cade6;
+}
+table{
+    width: 100%;
+    table-layout: fixed;
+}
+
+p span.First-Word {
+  color: #8cade6;
+  font-weight: 700;
+}
+
+a{
+    color: #8cade6;
+}
+a:hover{
+    color: white;
+}
+.test{
+    border-left: solid #c9c9c9 .125em;
+    border-right: solid #c9c9c9 .125em;
+    border-top: solid #c9c9c9 .125em;
+    border: solid #c9c9c9 .125em;
+    padding-right: 3px;
+    padding-left: 3px;
+    margin-bottom: 5px;
+    margin-left: 4px;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-color: currentcolor;
+    text-decoration-thickness: auto;
+    margin:0.1rem;
+    padding:1;
+    color:#8cade6;
+}
