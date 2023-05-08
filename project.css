@@ -1,0 +1,75 @@
+
+body {
+    font-family: ibm plex mono,monospace;
+    color: #fff;
+    background-color: #111;
+    font-size: 14px;
+    padding: 20px;
+    overflow-y: scroll;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+    padding-bottom: 400px;
+    height: 100%;
+    width: 100%;
+  }
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+.content {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    min-width: 300px;
+    background-color: #111;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 600;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.word-container{
+    display: inline-block;
+    vertical-align: middle;
+}
+.typed-out{
+    color:#8cade6;
+    font-size: 30px;
+    font-weight: 600;
+    width:100%;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 1.4s;
+}
+
+@keyframes typing {
+    from { width: 0}
+    to {width: 100%}
+}
+
+a{
+    color: #8cade6;
+}
+a:hover{
+    color: white;
+}

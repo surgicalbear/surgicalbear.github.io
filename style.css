@@ -53,9 +53,17 @@ h1{
     from { width: 0}
     to {width: 100%}
 }
+
 h2{
     font-size: 20px;
     font-weight: 500;
+}
+
+.links-header-tag{
+    max-width: 105px;
+}
+.links{
+    max-width: 105px;
 }
 .eryk{
     color: #8cade6;
